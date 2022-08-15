@@ -8,13 +8,11 @@ const work = () => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div>
-        <Hero
-          heading="Let's Work"
-          message="Go to contact page to start working together!"
-        />
-        <Portfolio />
-      </div>
+      <Hero
+        heading="Let's Work"
+        message="Go to contact page to start working together!"
+      />
+      <Portfolio />
     </>
   );
 };
