@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const func = () => {
+    const changeColor = () => {
       if (window.scrollY > 0) {
         setColor('white');
         setTextColor('black');
@@ -22,11 +22,12 @@ const Navbar = () => {
         setTextColor('white');
       }
     };
-    window.addEventListener('scroll', func);
+    window.addEventListener('scroll', changeColor);
     return () => {
-      window.removeEventListener('scroll', func);
+      window.removeEventListener('scroll', changeColor);
     };
   }, []);
+
   return (
     <div
       style={{ backgroundColor: color }}

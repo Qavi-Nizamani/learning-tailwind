@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 .custom-img {
   background-image: url('https://images.unsplash.com/photo-1659944975073-453265ccf3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
