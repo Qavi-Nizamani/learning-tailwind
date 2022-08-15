@@ -6,9 +6,6 @@ const nextConfig = {
       'images.unsplash.com',
     ],
   },
-  files: {
-    domains: ['template-city.s3.ap-northeast-2.amazonaws.com'],
-  },
   reactStrictMode: true,
   swcMinify: true,
 };
